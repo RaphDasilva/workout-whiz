@@ -26,7 +26,7 @@ const LeftArrow = () => {
   };
   
 
-const HolizontalScrollbar = ({data, bodyPart, setBodyPart}) => {
+const HorizontalScrollbar = ({data, bodyPart, setBodyPart}) => {
   return (
     <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
         {
@@ -45,4 +45,4 @@ const HolizontalScrollbar = ({data, bodyPart, setBodyPart}) => {
   )
 }
 
-export default HolizontalScrollbar
+export default HorizontalScrollbar
